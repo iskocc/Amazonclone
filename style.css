@@ -1,0 +1,295 @@
+/* -------------Font --------- */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+/* ---------Navbar Üst kısım---- */
+.navbar {
+  display: flex;
+  background-color: #101111;
+  color: #fff;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 60px;
+  width: 100%;
+}
+
+.nav-logo {
+  height: 50px;
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo img {
+  width: 100%;
+  height: 50px;
+}
+.border {
+  border: 1px solid transparent;
+  height: 100%;
+  display: grid;
+  place-items: center;
+}
+
+.border:hover {
+  border: 1px solid white;
+  cursor: pointer;
+}
+.add-first {
+  font-size: 13.6px;
+  color: #cccccc;
+  margin-left: 3px;
+}
+
+.add-second {
+  font-size: 16px;
+  margin-left: 3px;
+}
+.add-icon {
+  display: flex;
+  align-items: center;
+}
+
+.nav-search {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: pink;
+  width: 620px;
+  height: 40px;
+  border-radius: 4px;
+}
+.search-select {
+  background-color: #f3f3f3;
+  text-align: center;
+  border: none;
+  outline: none;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+  width: 60px;
+}
+
+.search-input {
+  width: 100%;
+  outline: none;
+  border: none;
+  text-indent: 10px;
+}
+
+.search-icon {
+  width: 45px;
+  background-color: #fabd68;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+  color: #000;
+}
+
+span {
+  font-size: 12px;
+}
+
+.nav-second {
+  font-size: 14px;
+  font-weight: 800;
+}
+
+.nav-cart {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 800;
+}
+.nav-cart i {
+  font-size: 30px;
+}
+/* -------Panel Area------------ */
+.panel {
+  background-color: #222f3d;
+  color: #fff;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 40px;
+}
+.panel-ops {
+  width: 70%;
+  font-size: 14px;
+}
+.panel-ops p {
+  display: inline-flex;
+  height: 40px;
+  padding: 0 3px;
+  margin-left: 15px;
+}
+
+.panel-deals {
+  padding: 0 3px;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+/* ----------Hero Area---------  */
+
+.hero-section {
+  background-image: url("./images/hero_image.jpg");
+  height: 350px;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+}
+.hero-msg {
+  background-color: #fff;
+  width: 80%;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 25px;
+  font-size: 14px;
+  padding: 15px 10px;
+}
+.hero-msg a {
+  color: #92bdc6;
+  text-decoration: none;
+  margin-left: 3px;
+}
+
+/* ----------Shop Area--------- */
+.shop-section {
+  background-color: #e2e7e6;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.box {
+  height: 450px;
+  width: 23%;
+  padding: 20px 15px;
+  background-color: #fff;
+  margin-top: 15px;
+}
+.box-img {
+  height: 300px;
+  background-size: cover;
+  margin: 16px 0;
+}
+
+.box-content {
+  margin-left: 16px;
+  margin-right: 16px;
+}
+
+.box-content a {
+  text-decoration: none;
+  color: #68a4b1;
+}
+/* ---------Mutfak Area-------- */
+.container {
+  background-color: #e2e7e6;
+}
+.title {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 20px 30px;
+}
+.title a {
+  text-decoration: none;
+  color: #476f78;
+}
+.title a:hover {
+  
+  text-decoration: underline;
+}
+
+.boxes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin: 15px 0;
+  gap: 20px;
+}
+.box1 {
+  height: 330px;
+  padding: 10px 20px;
+  background-color: #fff;
+}
+.img img {
+  width: 100%;
+  height: 250px;
+}
+
+.box1-content {
+  display: flex;
+  align-items: center;
+  margin: 5px 0;
+  width: 300px;
+}
+.box1-content p {
+  color: crimson;
+  font-size: 15px;
+  white-space: nowrap;
+  
+}
+.box1-content p span {
+  background-color: crimson;
+  color: #fff;
+  margin-right: 6px;
+  font-size: 13px;
+  font-weight: bold;
+  padding: 5px;
+}
+
+/* ---------Footer Area----- */
+.foot-panel-1 {
+  background-color: #364759;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  transition: all 0.3s;
+}
+.foot-panel-1 a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.foot-panel-1:hover {
+  opacity: 0.9;
+  cursor: pointer;
+}
+
+.foot-panel-2 {
+  background-color: #222f3d;
+  color: #fff;
+  height: 290px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.foot-panel-2 ul {
+  margin-top: 20px;
+}
+.foot-panel-2 ul li {
+  list-style: none;
+}
+.foot-panel-2 ul li a {
+  text-decoration: none;
+  color: rgb(200, 200, 200);
+  display: block;
+  font-size: 15px;
+  margin-top: 10px;
+  transition: all 0.3s;
+}
+.foot-panel-2 ul li a:hover {
+  color: #fabd68;
+}
